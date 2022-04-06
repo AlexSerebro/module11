@@ -19,7 +19,7 @@ refs.subButton.addEventListener('click', onSubscribeBtnClick);
 
 function openModal() {
   if (promtCounter === MAX_PROMT_ATTEMPTS || hasSubscribed) {
-    // console.log('максимальное кол событий или подписался');
+    console.log('максимальное кол событий или подписался');
     return;
   }
   setTimeout(() => {
